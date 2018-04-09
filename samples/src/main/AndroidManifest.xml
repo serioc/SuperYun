@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.QRCPark"
+    android:versionCode="1"
+    android:versionName="1.0"
+    >
+
+  <uses-permission android:name="android.permission.CAMERA"/>
+
+  <uses-feature android:name="android.hardware.camera"/>
+  <uses-feature android:name="android.hardware.camera.autofocus"/>
+
+  <application
+      android:allowBackup="true"
+      android:icon="@drawable/ic_launcher"
+      android:label="@string/app_name"
+      android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+      >
+    <activity
+        android:name="com.example.QRCPark.MainActivity"
+        android:label="@string/app_name"
+        >
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+    <activity
+        android:name="com.example.QRCPark.DecoderActivity"
+        android:label="@string/app_name"
+        >
+    </activity>
+    <activity
+        android:name="com.example.QRCPark.DecoderActivity2"
+        android:label="@string/app_name"
+        >
+    </activity>
+    <activity
+        android:name="com.example.QRCPark.Map1"
+        android:label="@string/app_name"
+        >
+    </activity>
+    <activity
+        android:name="com.example.QRCPark.Map2"
+        android:label="@string/app_name"
+        >
+    </activity>
+    <activity
+        android:name="com.example.QRCPark.MapSelection"
+        android:label="@string/app_name"
+        >
+    </activity>
+    <activity
+        android:name="com.example.QRCPark.Choose_Parking_Lot"
+        android:label="@string/app_name"
+        >
+    </activity>
+    <activity
+        android:name="com.example.QRCPark.Check_Parking_Lot"
+        android:label="@string/app_name"
+        >
+    </activity>
+
+
+  </application>
+
+</manifest>
